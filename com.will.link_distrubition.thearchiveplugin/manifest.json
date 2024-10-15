@@ -1,0 +1,21 @@
+{
+  "appVersion": "1.8.0",
+  "authors": [
+    {"name": "Will Simpson"}
+  ],
+  "version": "1.0",
+  "releaseDate": "2024-10-14",
+  "identifier": "com.will.link_distrubition",
+  "title": "Link Distribution & Top Ten Notes",
+  "description": "Generate link statistics for a Zettelkasten",
+  "input": {
+    "notes": ["all"],
+    "text": []
+  },
+  "output" : {
+    "insertText" : true,
+    "onCompletion": "showFile",
+    "changeFile" : { "programmaticFilename" : true }
+  },
+  "dependencies": []
+}

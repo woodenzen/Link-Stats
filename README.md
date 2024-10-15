@@ -1,33 +1,23 @@
-# Example Plug-In for The Archive
+# ZK Link Stats Plug-In for The Archive
 
-This repository provides an example "Hello World" plug-in for [The Archive](https://zettelkasten.de/the-archive/). It includes the necessary folder and file structure along with helpful tips on handling releases.
+This repository provides the ZK Link Stats plug-in for [The Archive](https://zettelkasten.de/the-archive/). It includes the necessary folder and file structure along with helpful tips.
 
-## Getting Started
+Creates a new note with a table showing the numebr of notes with the numebr of links. It shows the 10 notes with the most links.
 
-To create your own plug-in:
+The user is prompted for a title
+The filename is made from the current timestamp
+A front matter is inserted at the top of the created note
 
-1. **Copy, clone, or fork this repository.**
-2. **Customize it to your needs.**
-3. **Build and test your plug-in.**
-4. **Share your plug-in with others.**
+NB:
 
-### Customization
+The timestamp is precise to the minute
+The front matter structure is hardcoded
 
-- **Rename Your Plug-In**: Choose a name for your plug-in and update it in the manifest file.
-- **Set a Unique Identifier**: Define a unique identifier in the format `com.example.plugin-name` and specify it in the manifest file. Ensure the folder name matches this identifier, e.g., `com.example.plugin-name.thearchiveplugin`. Note: The Archive requires plug-ins to follow this naming convention.
-
-## Development
-
-We recommend using The Archive's developer console for plug-in development. The console provides tools for debugging and configuring the manifest file options.
-
-For more details, check out the official [developer documentation](https://zettelkasten.de/the-archive/help/plugins/).
-
-## Releasing Your Plug-In
-
-The Archive plug-ins are distributed as folders with the extension `.thearchiveplugin`. To share your plug-in, package it in a zip file containing the plug-in folder and all associated files.
-
-### Release Steps
-
-1. **Update the Version**: Increment the plug-in version in the manifest file and commit your changes.
-2. **Zip the Plug-In Folder**: Compress the folder with the `.thearchiveplugin` extension.
-3. **Publish Your Release**: Add the zip file to your repository or create a release on GitHub with the zip file attached.
+## Plug-in installation
+download the zip file com.will.link.distrubition.thearchiveplugin.zip
+unzip it in a temporary folder
+double-click on the bundle com.will.link.distrubition.thearchiveplugin to install it
+alternatively to install it, you can copy the bundle com.will.link.distrubition.thearchiveplugin in the folder ~/Library/Application\ Support/TheArchive/Plugins/Installed
+enable the plug-in in "The Archive" application:
+in the toolbar menu, select Plug-Ins > Manage Plug-Ins...
+select the plug-in New Note with Timestamp and click the Enable button
