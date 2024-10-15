@@ -1,0 +1,26 @@
+{
+  "appVersion" : "1.8.0",
+  "authors" : [
+    {
+      "name" : ""
+    }
+  ],
+  "dependencies" : [
+  ],
+  "description" : "",
+  "identifier" : "com.example.hello-world",
+  "input" : {
+    "notes" : [
+      "all"
+    ],
+    "text" : [
+    ]
+  },
+  "output" : {
+    "changeFile" : "Hello World",
+    "onCompletion" : "showFile"
+  },
+  "releaseDate" : "2024-10-11",
+  "title" : "Hello World Example",
+  "version" : "1.0.0"
+}
